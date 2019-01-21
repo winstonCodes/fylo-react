@@ -3,7 +3,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 3em;
-  background-color: #1c2431;
+  /* background-color: #1c2431; */
 }
 header .logo {
   width: 140.8px;
@@ -20,7 +20,8 @@ header nav {
   align-items: center;
 }
 header nav a, header nav i {
-  color: white;
+  /* color: white; */
+  color: inherit;
   opacity: 0.7;
   text-decoration: none;
   font-size: 1em;

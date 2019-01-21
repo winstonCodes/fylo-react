@@ -1,0 +1,44 @@
+$accent-1: hsl(176, 68%, 64%);
+$accent-2: hsl(198, 60%, 50%);
+
+/* Image && Text Sections */
+
+.half-img-half-text {
+  display: flex;
+  padding: 0 8vw 7vh;
+  width: 100%;
+  justify-content: space-between;
+  .section-content {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      margin-bottom: 0.5em;
+      width: 100%;
+      max-width: 340px;
+    }
+    p {
+      opacity: 0.8;
+    }
+    a {
+      text-decoration: none;
+      .link-decor{
+        color: $accent-1;
+        text-decoration: none;
+        border-bottom: 1px solid $accent-1;
+        padding-bottom: 3px;
+        img {
+          height: 0.9em;
+        }
+      }
+    }
+  }
+  .section-image {
+    flex-basis: 50%;
+    img {
+      width: 100%;
+      max-width: 615px;
+    }
+  }
+}

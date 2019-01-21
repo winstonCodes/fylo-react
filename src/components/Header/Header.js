@@ -1,17 +1,30 @@
 import React from 'react';
-import Logo from './Logo'
+import Logo from './images/Logo'
 import './style.css';
 
-const Header = props => (
-  <header>
-    <Logo />
-    <nav>
-      <a href="#">Features</a>
-      <a href="#">Team</a>
-      <a href="#">Sign In</a>
-      <i class="fas fa-moon" id="switch-theme"></i>
-    </nav>
-  </header>
-);
+
+
+const Header = props => {
+  const {bkgSecondary, fontHeader} = props.theme;
+
+  return(
+    <header
+    style={{
+      backgroundColor: bkgSecondary,
+      color: fontHeader
+    }}>
+      <Logo color={fontHeader} />
+      <nav>
+        <a href="#">Features</a>
+        <a href="#">Team</a>
+        <a href="#">Sign In</a>
+        <i class="fas fa-moon" id="switch-theme" />
+      </nav>
+    </header>
+  );
+}
 
 export default Header;
+
+// TODO: Transition css to scss
+// TODO: Ensure mobile css

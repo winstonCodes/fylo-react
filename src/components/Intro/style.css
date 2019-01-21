@@ -1,0 +1,47 @@
+button.get-started {
+  width: 300px;
+  height: 60px;
+  /* background-color: #65e2d9;
+  background-image: linear-gradient(to right, #65e2d9, #339ecc); */
+  /* color: white; */
+  border-radius: 30px;
+  font-size: 1em;
+}
+
+/* Intro */
+h1 {
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.intro-container {
+  background-color: #1c2431;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: url("../images/bg-curvy-desktop.svg"); */
+  background-position: bottom;
+}
+
+@media (max-width: 700px) {
+  .intro-container {
+    /* background-image: url("../images/bg-curvy-mobile.svg"); */
+  }
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+}
+.intro p {
+  max-width: 580px;
+  font-size: 1.2em;
+  opacity: 0.8;
+}

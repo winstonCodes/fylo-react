@@ -1,0 +1,42 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+/* Variables */
+$font-headings: Raleway, sans-serif;
+$font-body: "Open Sans", sans-serif;
+
+$theme-main-bkg: hsl(218, 28%, 13%);
+$theme-intro-bkg: hsl(217, 28%, 15%);
+$theme-footer-bkg: hsl(216, 53%, 9%);
+$theme-testimonials-bkg: hsl(219, 30%, 18%);
+
+$accent-1: hsl(176, 68%, 64%);
+$accent-2: hsl(198, 60%, 50%);
+
+$neutral-light: hsl(0, 0%, 100%);
+
+$neutral-dark: #000000;
+
+body {
+    font-size: 14px;
+    font-family: $font-body;
+    line-height: 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-headings;
+}
+
+h1 { font-size: 2.3em; }
+h2 { font-size: 1.728em; }
+h3 { font-size: 1.44em; }
+h4 { font-size: 1.2em; }
+
+body {
+  // background-color: $theme-main-bkg;
+  // color: $neutral-light;
+}
