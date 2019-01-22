@@ -1,4 +1,7 @@
 /* Feature Grid */
+* {
+  box-sizing: border-box;
+}
 .feature-grid {
   display: flex;
   justify-content: space-between;
@@ -6,7 +9,8 @@
   flex-wrap: wrap;
   width: 100%;
   max-width: 900px;
-  margin: 10em auto;
+  margin: 0 auto;
+  padding: 10em 0;
 }
 .feature-grid .feature-square {
   flex-basis: 45%;

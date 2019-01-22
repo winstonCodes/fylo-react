@@ -14,7 +14,7 @@ const theme = {
   bkgSecondary: "pink",
   bkgFooter: "orange",
   bkgAddtl: "purple",
-  accentOne: "skyblue",
+  accentOne: "grey",
   accentTwo: "violet",
   fontHeader: "#50A0D6",
   fontBody: "black",
