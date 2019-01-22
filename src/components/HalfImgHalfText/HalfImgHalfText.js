@@ -1,8 +1,20 @@
 import React from 'react';
 import './style.scss';
 
-const HalfImgHalfText = props => (
-  <section className="half-img-half-text">
+// import IconArrow from "./images/IconArrow";
+
+const HalfImgHalfText = props => {
+  const {bkgMain, fontBody, accentOne} = props.theme;
+  const sectionStyle = {
+    color: fontBody,
+    backgroundColor: bkgMain
+  }
+  const spanStyle = {
+    color: accentOne,
+    borderBottom: `1px solid ${accentOne}`
+  }
+  return(
+  <section className="half-img-half-text" style={sectionStyle}>
     <div className="section-image">
       <img src={require("./images/illustration-stay-productive.png")} alt="" />
     </div>
@@ -16,11 +28,11 @@ const HalfImgHalfText = props => (
         Securely share files and folders with friends, family and colleagues for live collaboration. No email
         attachments required.
       </p>
-      <a href="#"><span className="link-decor">See how Fylo works <img src={require("./images/icon-arrow.svg")} /></span></a>
+      <a href="#"><span className="link-decor" style={spanStyle}>See how Fylo works </span></a>
     </div>
 
   </section>
-);
+);}
 
 export default HalfImgHalfText;
 
