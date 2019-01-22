@@ -22,9 +22,7 @@ $neutral-dark: #000000;
   align-items: center;
   text-align: center;
   padding: 10em 3em;
-  background: linear-gradient(to bottom,  $theme-main-bkg 0%,$theme-main-bkg 50%,$theme-footer-bkg 50%,$theme-footer-bkg 100%);
   .section-content {
-    background-color: $theme-intro-bkg;
     padding: 5em 3em;
     width: 100%;
     max-width: 860px;
