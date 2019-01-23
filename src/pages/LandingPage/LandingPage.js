@@ -9,6 +9,8 @@ import Testimonials from '../../components/Testimonials';
 import CallToAction from '../../components/CallToAction';
 import Footer from '../../components/Footer';
 
+import ClickNotf from '../../components/ClickNotf';
+
 
 
 const LandingPage = props => {
@@ -16,6 +18,7 @@ const LandingPage = props => {
   return(
     <div theme={theme} style={{backgroundColor:theme.bkgMain}}>
       <Header theme={theme}/>
+      <ClickNotf theme={theme}/>
       <Intro theme={theme} />
       <Features theme={theme} />
       <HalfImgHalfText theme={theme} />
