@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fylo-react/precache-manifest.95652a90d3a2c67f38583f7d0f2b5f2b.js"
+  "/fylo-react/precache-manifest.bc4e7a993fed18fe9ddcd7cb5d088213.js"
 );
 
 workbox.clientsClaim();
