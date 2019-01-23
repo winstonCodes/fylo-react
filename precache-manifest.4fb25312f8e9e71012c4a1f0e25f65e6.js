@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/fylo-react/static/js/runtime~main.7199712c.js"
   },
   {
-    "revision": "47254ae37d841aba8d78",
-    "url": "/fylo-react/static/js/main.47254ae3.chunk.js"
+    "revision": "920e78c293ee1f0cb5b7",
+    "url": "/fylo-react/static/js/main.920e78c2.chunk.js"
   },
   {
     "revision": "f715b2e0bea123466b14",
     "url": "/fylo-react/static/js/1.f715b2e0.chunk.js"
   },
   {
-    "revision": "47254ae37d841aba8d78",
-    "url": "/fylo-react/static/css/main.64b6bd9c.chunk.css"
+    "revision": "920e78c293ee1f0cb5b7",
+    "url": "/fylo-react/static/css/main.258575ef.chunk.css"
   },
   {
-    "revision": "c611f03f1988accc8459e013b44e4700",
+    "revision": "56e8a4f9534b35f8383ea62095872482",
     "url": "/fylo-react/index.html"
   }
 ];

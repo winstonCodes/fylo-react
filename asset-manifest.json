@@ -1,15 +1,15 @@
 {
-  "main.css": "/fylo-react/static/css/main.64b6bd9c.chunk.css",
-  "main.js": "/fylo-react/static/js/main.47254ae3.chunk.js",
-  "main.js.map": "/fylo-react/static/js/main.47254ae3.chunk.js.map",
+  "main.css": "/fylo-react/static/css/main.258575ef.chunk.css",
+  "main.js": "/fylo-react/static/js/main.920e78c2.chunk.js",
+  "main.js.map": "/fylo-react/static/js/main.920e78c2.chunk.js.map",
   "static/js/1.f715b2e0.chunk.js": "/fylo-react/static/js/1.f715b2e0.chunk.js",
   "static/js/1.f715b2e0.chunk.js.map": "/fylo-react/static/js/1.f715b2e0.chunk.js.map",
   "runtime~main.js": "/fylo-react/static/js/runtime~main.7199712c.js",
   "runtime~main.js.map": "/fylo-react/static/js/runtime~main.7199712c.js.map",
-  "static/css/main.64b6bd9c.chunk.css.map": "/fylo-react/static/css/main.64b6bd9c.chunk.css.map",
+  "static/css/main.258575ef.chunk.css.map": "/fylo-react/static/css/main.258575ef.chunk.css.map",
   "static/media/illustration-intro.png": "/fylo-react/static/media/illustration-intro.526544ae.png",
   "static/media/illustration-stay-productive.png": "/fylo-react/static/media/illustration-stay-productive.99294b1f.png",
   "index.html": "/fylo-react/index.html",
-  "precache-manifest.bc4e7a993fed18fe9ddcd7cb5d088213.js": "/fylo-react/precache-manifest.bc4e7a993fed18fe9ddcd7cb5d088213.js",
+  "precache-manifest.4fb25312f8e9e71012c4a1f0e25f65e6.js": "/fylo-react/precache-manifest.4fb25312f8e9e71012c4a1f0e25f65e6.js",
   "service-worker.js": "/fylo-react/service-worker.js"
 }
