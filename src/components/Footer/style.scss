@@ -13,7 +13,7 @@ $neutral-dark: #000000;
 /* Footer */
 
 footer {
-  background-color: $theme-footer-bkg;
+  // background-color: $theme-footer-bkg;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 100px);
@@ -45,7 +45,7 @@ footer {
     .icon-text {
       display: flex;
       align-items: flex-start;
-      img {
+      svg {
         margin: 6px 2em 0 0;
       }
     }
@@ -61,7 +61,7 @@ footer {
       display: flex;
       align-items: center;
     }
-    img {
+    svg {
       height: 1em;
       margin-right: 1em;
     }  }

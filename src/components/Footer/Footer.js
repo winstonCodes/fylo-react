@@ -1,16 +1,27 @@
 import React from 'react';
 import './style.scss';
 
-const Footer = props => (
-  <footer>
+import IconEmail from './images/IconEmail';
+import IconLocation from './images/IconLocation';
+import IconPhone from './images/IconPhone';
+import Logo from './images/Logo';
+
+const Footer = props => {
+  const {bkgFooter, fontFooter} = props.theme;
+  const style = {
+    backgroundColor: bkgFooter,
+    color: fontFooter
+  }
+  return(
+  <footer style={style}>
 
       <div class="footer-header">
-        <img src={require("./images/logo.svg")} alt="" class="logo" />
+        <Logo color={fontFooter} class="logo" />
 
       </div>
       <div class="col-1">
         <div class="icon-text">
-          <img src={require("./images/icon-location.svg")} alt="" />
+          <IconLocation color={fontFooter} className="icon" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua
@@ -18,8 +29,8 @@ const Footer = props => (
         </div>
       </div>
       <div class="col-2">
-        <p><img src={require("./images/icon-phone.svg")} alt="" />+1-543-123-4567</p>
-        <p><img src={require("./images/icon-email.svg")} alt="" />example@fylo.com</p>
+        <p><IconPhone color={fontFooter} />+1-543-123-4567</p>
+        <p><IconEmail color={fontFooter} className="icon" />example@fylo.com</p>
 
       </div>
       <div class="col-3">
@@ -47,6 +58,6 @@ const Footer = props => (
 
 
     </footer>
-);
+);}
 
 export default Footer;

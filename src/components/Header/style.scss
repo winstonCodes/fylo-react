@@ -3,24 +3,23 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 3em;
-  /* background-color: #1c2431; */
 }
-header .logo {
+header path.logo {
   width: 140.8px;
-  height: 41.6px;
-  /* background-image: url("../images/logo.svg"); */
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  // height: 41.6px;
+  // background-position: center;
+  // background-size: contain;
+  // background-repeat: no-repeat;
   transform: scale(0.8) translateX(-20px);
 }
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width:100%;
+  max-width: 250px;
 }
 header nav a, header nav i {
-  /* color: white; */
   color: inherit;
   opacity: 0.7;
   text-decoration: none;
@@ -30,4 +29,22 @@ header nav a, header nav i {
 }
 header nav i:hover {
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  header {
+    padding: 1em;
+    .logo path {
+      transform: scale(0.8) ;
+    }
+    nav {
+      width: 100%;
+      min-width: 100px;
+      max-width: 217px;
+      justify-content: flex-end;
+      a {
+        margin-left: 1em;
+      }
+    }
+  }
 }

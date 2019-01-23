@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './images/Logo'
-import './style.css';
+import './style.scss';
 
 
 
@@ -17,8 +17,7 @@ const Header = props => {
       <nav>
         <a href="#">Features</a>
         <a href="#">Team</a>
-        <a href="#">Sign In</a>
-        <i class="fas fa-moon" id="switch-theme" />
+        <a href="#">Sign-In</a>
       </nav>
     </header>
   );

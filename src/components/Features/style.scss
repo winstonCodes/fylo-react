@@ -10,6 +10,7 @@
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  align-self: center;
   padding: 10em 0;
 }
 .feature-grid .feature-square {
@@ -29,11 +30,15 @@
 .feature-grid .feature-square .access-img {
   width: 83px;
   height: 78px;
-  /* background-image: url("../images/icon-access-anywhere.svg"); */
 }
 
 @media (max-width: 701px) {
   .feature-grid {
     flex-direction: column;
+  }
+  .feature-square {
+    .img {
+      margin-bottom: 3em;
+    }
   }
 }

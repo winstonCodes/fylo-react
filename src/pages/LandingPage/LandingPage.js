@@ -9,31 +9,26 @@ import Testimonials from '../../components/Testimonials';
 import CallToAction from '../../components/CallToAction';
 import Footer from '../../components/Footer';
 
-const theme = {
-  bkgMain: "blue",
-  bkgSecondary: "pink",
-  bkgFooter: "orange",
-  bkgAddtl: "purple",
-  accentOne: "grey",
-  accentTwo: "violet",
-  fontHeader: "#50A0D6",
-  fontBody: "black",
-  fontFooter: "turqoise",
-  buttonColor: "white"
+
+
+const LandingPage = props => {
+  const {theme} = props;
+  return(
+    <div theme={theme} style={{backgroundColor:theme.bkgMain}}>
+      <Header theme={theme}/>
+      <Intro theme={theme} />
+      <Features theme={theme} />
+      <HalfImgHalfText theme={theme} />
+      <Testimonials theme={theme} />
+      <CallToAction theme={theme} />
+      <Footer theme={theme} />
+    </div>
+  );
 }
-const LandingPage = props => (
-  <div theme={theme}>
-    <Header theme={theme}/>
-    <Intro theme={theme} />
-    <Features theme={theme} />
-    <HalfImgHalfText theme={theme} />
-    <Testimonials theme={theme} />
-    <CallToAction theme={theme} />
-    <Footer theme={theme} />
-  </div>
-);
+
 
 export default LandingPage;
+// this.setState({theme: Themes[1]});
 
 // TODO: Move components to LandingPage/components
 // TODO: Transition css to scss

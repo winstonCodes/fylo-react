@@ -37,3 +37,26 @@
     }
   }
 }
+
+@media (max-width: 750px) {
+  .half-img-half-text {
+    flex-direction: column;
+    .section-content h1 {
+      max-width: none;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .half-img-half-text {
+    h1 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .section-image {
+      padding-bottom: 4em;
+    }
+  }
+}

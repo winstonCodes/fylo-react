@@ -5,7 +5,7 @@ import TestimonialSquare from './components/TestimonialSquare';
 import Content from "./content";
 
 const Testimonials = props => {
-  const {bkgMain, fontBody} = props.theme;
+  const {bkgMain, fontBody, accentOne} = props.theme;
   const {theme} = props;
   const sectionStyle = {
     backgroundColor: bkgMain,
@@ -19,7 +19,7 @@ const Testimonials = props => {
 
   return(
   <section className="testimonials" style={sectionStyle}>
-
+    <p className="testimonial-quotation" style={{color: accentOne}}>"</p>
     {testimonials}
 
   </section>

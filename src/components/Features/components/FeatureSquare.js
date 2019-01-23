@@ -2,11 +2,11 @@ import React from 'react';
 
 const FeatureSquare = props => {
   const {header, paragraph, image} = props.content;
-  const {accentOne, bkgMain} = props.theme;
+  const {accentOne, bkgMain, featureIcon} = props.theme;
 
   return(
     <div className="feature-square">
-      {React.cloneElement(image, {color:accentOne, bkgColor:bkgMain})}
+      {React.cloneElement(image, {color:(featureIcon||accentOne), bkgColor:bkgMain})}
       <h3>
         {header}
       </h3>

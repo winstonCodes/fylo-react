@@ -3,7 +3,7 @@ import './style.scss';
 
 const CallToAction = props => {
 
-  const {bkgSecondary, bkgMain, bkgFooter, fontBody} = props.theme;
+  const {bkgSecondary, bkgMain, bkgFooter, fontBody, accentOne, accentTwo, buttonColor} = props.theme;
   const sectionStyle = {
       backgroundImage: `linear-gradient(to bottom,  ${bkgMain} 0%,${bkgMain} 50%,${bkgFooter} 50%,${bkgFooter} 100%)`,
       color: fontBody
@@ -21,7 +21,12 @@ const CallToAction = props => {
           questions, our support team would be happy to help you.
         </p>
         <input type="email" name="" value="" />
-        <button type="button" name="button" className="get-started">Get Started For Free</button>
+        <button className="get-started" type="button" name="button"
+          style={{
+            backgroundColor:accentOne,
+            backgroundImage:`linear-gradient(to right, ${accentOne}, ${accentTwo})`,
+            color:buttonColor
+          }}>Get Started For Free</button>
       </div>
     </section>
   );
