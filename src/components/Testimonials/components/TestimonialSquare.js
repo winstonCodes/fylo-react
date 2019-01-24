@@ -2,9 +2,9 @@ import React from 'react';
 
 const TestimonialSquare = props => {
   const {author, position, statement, picture} = props.content;
-  const {bkgAddtl} = props.theme;
+  const {bkgAddtl, fontHeader} = props.theme;
   return(
-    <div className="testimonial-square" style={{backgroundColor:bkgAddtl}}>
+    <div className="testimonial-square" style={{backgroundColor:bkgAddtl, color:fontHeader}}>
       <p>
       {statement}
       </p>
