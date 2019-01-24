@@ -1,7 +1,7 @@
 {
   "main.css": "/fylo-react/static/css/main.258575ef.chunk.css",
-  "main.js": "/fylo-react/static/js/main.920e78c2.chunk.js",
-  "main.js.map": "/fylo-react/static/js/main.920e78c2.chunk.js.map",
+  "main.js": "/fylo-react/static/js/main.8077c84b.chunk.js",
+  "main.js.map": "/fylo-react/static/js/main.8077c84b.chunk.js.map",
   "static/js/1.f715b2e0.chunk.js": "/fylo-react/static/js/1.f715b2e0.chunk.js",
   "static/js/1.f715b2e0.chunk.js.map": "/fylo-react/static/js/1.f715b2e0.chunk.js.map",
   "runtime~main.js": "/fylo-react/static/js/runtime~main.7199712c.js",
@@ -10,6 +10,6 @@
   "static/media/illustration-intro.png": "/fylo-react/static/media/illustration-intro.526544ae.png",
   "static/media/illustration-stay-productive.png": "/fylo-react/static/media/illustration-stay-productive.99294b1f.png",
   "index.html": "/fylo-react/index.html",
-  "precache-manifest.4fb25312f8e9e71012c4a1f0e25f65e6.js": "/fylo-react/precache-manifest.4fb25312f8e9e71012c4a1f0e25f65e6.js",
+  "precache-manifest.112c6077fdb54c82dd5094a3738dbb34.js": "/fylo-react/precache-manifest.112c6077fdb54c82dd5094a3738dbb34.js",
   "service-worker.js": "/fylo-react/service-worker.js"
 }
