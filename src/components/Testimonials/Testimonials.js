@@ -5,11 +5,11 @@ import TestimonialSquare from './components/TestimonialSquare';
 import Content from "./content";
 
 const Testimonials = props => {
-  const {bkgMain, fontBody, accentOne} = props.theme;
+  const {bkgMain, fontHeader, accentOne} = props.theme;
   const {theme} = props;
   const sectionStyle = {
     backgroundColor: bkgMain,
-    fontColor: fontBody
+    fontColor: fontHeader
   }
 
   const testimonials = Content.map((content, i) => (
