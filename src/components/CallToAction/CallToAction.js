@@ -32,4 +32,3 @@ const CallToAction = props => {
   );
 }
 export default CallToAction;
-// TODO: Ensure mobile css

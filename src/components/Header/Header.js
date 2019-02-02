@@ -24,6 +24,3 @@ const Header = props => {
 }
 
 export default Header;
-
-// TODO: Transition css to scss
-// TODO: Ensure mobile css

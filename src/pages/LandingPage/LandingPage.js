@@ -12,7 +12,7 @@ import Footer from '../../components/Footer';
 import ClickNotf from '../../components/ClickNotf';
 
 
-
+// render components and pass through the theme
 const LandingPage = props => {
   const {theme} = props;
   return(
@@ -31,9 +31,5 @@ const LandingPage = props => {
 
 
 export default LandingPage;
-// this.setState({theme: Themes[1]});
 
 // TODO: Move components to LandingPage/components
-// TODO: Transition css to scss
-// TODO: Ensure mobile css
-// TODO: Convert css to scss

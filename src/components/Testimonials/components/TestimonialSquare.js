@@ -1,8 +1,13 @@
 import React from 'react';
 
 const TestimonialSquare = props => {
+  // info taken from content file
   const {author, position, statement, picture} = props.content;
+
+  // theme colors
   const {bkgAddtl, fontHeader} = props.theme;
+
+  //render individual testimonial content
   return(
     <div className="testimonial-square" style={{backgroundColor:bkgAddtl, color:fontHeader}}>
       <p>

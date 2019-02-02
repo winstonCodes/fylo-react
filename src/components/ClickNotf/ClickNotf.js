@@ -1,6 +1,7 @@
 import React from "react";
 import './style.scss';
 
+// "click to change theme" notification
 const ClickNotf = props => {
   const {bkgSecondary, fontHeader} = props.theme;
   const style = {
